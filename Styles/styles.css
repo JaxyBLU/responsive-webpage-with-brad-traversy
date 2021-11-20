@@ -167,6 +167,34 @@ nav{
 	font-weight: bold;
 }
 
+.languages .card{
+	text-align: center;
+	margin: 18px 10px 40px;
+	transition: transform 0.2s linear;
+}
+
+.languages .card:hover{
+	transform: translateY(-20px);
+}
+
+.languages .flex{
+	flex-wrap: wrap;
+}
+
+.languages .card h4{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.features-head img{
+	width: 200px;
+	justify-self: flex-end;
+}
+
+.footer .social a{
+	margin: 0 20px;
+}
+
 .btn{
 	display: inline-block;
 	padding: 10px 30px;
